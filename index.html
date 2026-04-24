@@ -2,87 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
-
+    <title>Stomata - Respiration in Plants</title>
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
-            color: #333;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
             text-align: center;
         }
-
-        header {
-            background-color: rgba(0, 0, 0, 0.6);
-            color: white;
-            padding: 20px;
+        ul {
+            margin-left: 20px;
         }
-
-        main {
-            padding: 40px 20px;
+        li {
+            margin-bottom: 8px;
         }
-
-        .card {
-            background: white;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 500px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-        }
-
-        button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #4facfe;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #007acc;
-        }
-
-        footer {
-            margin-top: 40px;
-            padding: 10px;
-            font-size: 14px;
-            color: white;
+        .section {
+            margin-bottom: 30px;
         }
     </style>
 </head>
-
 <body>
 
-<header>
-    <h1>Welcome to My Teaching Page</h1>
-    <p>Learning HTML Made Simple</p>
-</header>
+    <h1>RESPIRATION IN PLANTS</h1>
+    <h2>STOMATA</h2>
 
-<main>
-    <div class="card">
-        <h2>Hello Students 👋</h2>
-        <p>This is a simple HTML welcome page example.</p>
-        <p>You can learn structure, styling, and basic elements here.</p>
-
-        <button onclick="showMessage()">Click Me</button>
-        <p id="message"></p>
+    <div class="section">
+        <p>Stomata are minute apertures found in epidermis of leaves.</p>
+        <ul>
+            <li>‘Stoma’ refers to the stomatal opening and guard cells.</li>
+            <li>Each stoma is surrounded by two kidney-shaped guard cells.</li>
+            <li>Stomata are found in all aerial parts of plants.</li>
+            <li>They are not found in roots.</li>
+            <li>Surrounding epidermal cells are called accessory or subsidiary cells.</li>
+            <li>Guard cells are living and contain chloroplasts.</li>
+            <li>They contain more protoplasm than ordinary cells.</li>
+            <li>Dicot leaves have scattered stomata.</li>
+            <li>Monocot leaves have stomata in parallel rows.</li>
+            <li>Thousands to lakhs of stomata may be present per square cm.</li>
+            <li>More stomata are present on the lower leaf surface.</li>
+            <li>Some plants (like Banyan, Rubber) lack stomata on upper surface.</li>
+            <li>Floating plants have stomata only on upper surface.</li>
+            <li>Stomata open in daylight and close in darkness.</li>
+            <li>They help in transpiration (loss of water vapor).</li>
+            <li>A respiratory cavity exists below each stoma.</li>
+        </ul>
     </div>
-</main>
 
-<footer>
-    <p>© 2026 Your Name | Teaching Demo</p>
-</footer>
+    <div class="section">
+        <h3>Opening and Closing Mechanism</h3>
+        <ul>
+            <li>Depends on sugar and starch in guard cells.</li>
+            <li>During day:
+                <ul>
+                    <li>Photosynthesis produces sugar.</li>
+                    <li>Sugar increases osmotic concentration.</li>
+                    <li>Water enters guard cells → cells become turgid → stomata open.</li>
+                </ul>
+            </li>
+            <li>During night:
+                <ul>
+                    <li>Sugar converts into starch.</li>
+                    <li>Osmotic concentration decreases.</li>
+                    <li>Water leaves guard cells → cells become flaccid → stomata close.</li>
+                </ul>
+            </li>
+            <li>pH changes control sugar-starch conversion:
+                <ul>
+                    <li>Night: CO₂ increases → acidic → starch formation.</li>
+                    <li>Day: CO₂ used → alkaline → sugar formation.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-<script>
-    function showMessage() {
-        document.getElementById("message").innerText = "You clicked the button! 🎉";
-    }
-</script>
+    <div class="section">
+        <h3>Role of Potassium (K⁺)</h3>
+        <p>
+            Influx of potassium ions into guard cells increases osmotic concentration,
+            leading to stomatal opening. K⁺ ions move from nearby cells into guard cells.
+        </p>
+    </div>
+
+    <div class="section">
+        <h3>Factors Affecting Stomatal Movement</h3>
+        <ul>
+            <li><strong>Light:</strong>
+                <ul>
+                    <li>Most plants open stomata in daylight.</li>
+                    <li>CAM plants (Pineapple, Aloe) open at night.</li>
+                </ul>
+            </li>
+
+            <li><strong>Temperature:</strong>
+                <ul>
+                    <li>Higher temperature increases opening (if water is sufficient).</li>
+                    <li>Very low or very high temperatures reduce opening.</li>
+                </ul>
+            </li>
+
+            <li><strong>Water Availability:</strong>
+                <ul>
+                    <li>Water shortage causes stomata to close.</li>
+                    <li>This prevents water loss (Hydropassive control).</li>
+                </ul>
+            </li>
+
+            <li><strong>Carbon Dioxide (CO₂):</strong>
+                <ul>
+                    <li>CO₂ concentration influences stomatal opening and closing.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
 </body>
 </html>
